@@ -1,3 +1,4 @@
 [
-    "https://raw.githubusercontent.com/portainer/templates/master/templates.json"
+    "https://raw.githubusercontent.com/portainer/templates/master/templates.json",
+    "https://tools.linuxserver.io/portainer.json"
 ]
