@@ -1,0 +1,13 @@
+{
+  "type": "container",
+  "title": "Terraria Server - tshock",
+  "description": "Docker image to run a Terraria Server via tshock",
+  "categories": ["games"],
+  "platform": "linux",
+  "logo": "https://portainer.io/images/logos/registry.png",
+  "image": "beardedio/terraria:latest",
+  "ports": [
+    "7777/tcp"
+  ],
+  "volumes": ["/config"]
+}

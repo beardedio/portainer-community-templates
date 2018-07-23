@@ -1,0 +1,12 @@
+stages:
+  - deploy
+
+variables:
+  SSH_PRIVATE_KEY: "set-as-secret-variable"
+
+deploy:
+  image: beardedio/git-tools
+  stage: deploy
+  only:
+    - master
+  script: git-push git@github.com:beardedio/portainer-community-templates.git refs/heads/master

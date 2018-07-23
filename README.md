@@ -1,0 +1,1 @@
+# Portainer Community Templates
