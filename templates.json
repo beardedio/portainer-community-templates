@@ -1706,37 +1706,6 @@
   },
   {
     "type": "container",
-    "title": "teamspeak3",
-    "description": null,
-    "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/teamspeak-icon.png",
-    "image": "linuxserver/gsm-ts3:latest",
-    "category": [
-      "Network:Voip"
-    ],
-    "ports": [
-      "/",
-      "/",
-      "/",
-      "/"
-    ],
-    "volumes": [
-      "/config"
-    ],
-    "env": [
-      {
-        "name": "PUID",
-        "label": "PUID",
-        "set": ""
-      },
-      {
-        "name": "PGID",
-        "label": "PGID",
-        "set": ""
-      }
-    ]
-  },
-  {
-    "type": "container",
     "title": "medusa",
     "description": "Medusa, automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/medusa-icon.png",
