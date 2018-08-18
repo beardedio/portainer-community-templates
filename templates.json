@@ -1055,36 +1055,6 @@
   },
   {
     "type": "container",
-    "title": "maraschino",
-    "description": "a simple web interface to act as a nice overview/front page for my XBMC HTPC.",
-    "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/maraschino-icon.png",
-    "image": "linuxserver/maraschino:latest",
-    "category": [
-      "MediaApp:Video",
-      "MediaApp:Music",
-      "MediaApp:Other"
-    ],
-    "ports": [
-      "7000/tcp"
-    ],
-    "volumes": [
-      "/config"
-    ],
-    "env": [
-      {
-        "name": "PGID",
-        "label": "PGID",
-        "set": ""
-      },
-      {
-        "name": "PUID",
-        "label": "PUID",
-        "set": ""
-      }
-    ]
-  },
-  {
-    "type": "container",
     "title": "jackett",
     "description": "Jackett works as a proxy server it translates queries from apps like Sonarr etc into tracker-site-specific http queries and parses the html response sending results back to the requesting software.[",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jacket-icon.png",
