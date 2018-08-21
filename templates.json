@@ -1949,7 +1949,7 @@
   },
   {
     "type": "container",
-    "title": "the-lounge",
+    "title": "thelounge",
     "description": "A self-hosted web IRC client",
     "logo": "https://raw.githubusercontent.com/linuxserver/community-templates/master/lsiocommunity/img/shout-icon.png",
     "image": "linuxserver/thelounge:latest",
