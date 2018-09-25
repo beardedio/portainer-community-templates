@@ -2925,7 +2925,7 @@
       {
         "name": "JAVA_OPTS",
         "label": "JAVA_OPTS",
-        "set": "-Xms256 -Xmx512"
+        "set": "-Xms256m -Xmx512m"
       }
     ]
   },
@@ -2951,12 +2951,12 @@
       {
         "name": "EMAIL",
         "label": "EMAIL",
-        "set": "-Xms256 -Xmx512"
+        "set": "-Xms256m -Xmx512m"
       },
       {
         "name": "URL",
         "label": "URL",
-        "set": "-Xms256 -Xmx512"
+        "set": "-Xms256m -Xmx512m"
       },
       {
         "name": "SUBDOMAINS",
