@@ -1688,7 +1688,25 @@
       "Network:Other",
       "Status:Stable"
     ],
-    "volumes": []
+    "ports": [
+      "80/tcp",
+      "443/tcp"
+    ],
+    "volumes": [
+      "/config"
+    ],
+    "env": [
+      {
+        "name": "PUID",
+        "label": "PUID",
+        "set": ""
+      },
+      {
+        "name": "PGID",
+        "label": "PGID",
+        "set": ""
+      }
+    ]
   },
   {
     "type": "container",
