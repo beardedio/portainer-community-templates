@@ -7,7 +7,7 @@
       "docker"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/registry.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
     "image": "registry:latest",
     "ports": [
       "5000/tcp"
@@ -24,7 +24,7 @@
       "webserver"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/nginx.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/nginx.png",
     "image": "nginx:latest",
     "ports": [
       "80/tcp",
@@ -43,7 +43,7 @@
       "webserver"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/httpd.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/httpd.png",
     "image": "httpd:latest",
     "ports": [
       "80/tcp"
@@ -60,7 +60,7 @@
       "webserver"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/caddy.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/caddy.png",
     "image": "abiosoft/caddy:latest",
     "ports": [
       "80/tcp",
@@ -79,7 +79,7 @@
       "database"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/mysql.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mysql.png",
     "image": "mysql:latest",
     "env": [
       {
@@ -102,7 +102,7 @@
       "database"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/mariadb.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mariadb.png",
     "image": "mariadb:latest",
     "env": [
       {
@@ -125,7 +125,7 @@
       "database"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/postgres.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
     "image": "postgres:latest",
     "env": [
       {
@@ -152,7 +152,7 @@
       "database"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/mongo.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mongo.png",
     "image": "mongo:latest",
     "ports": [
       "27017/tcp"
@@ -169,7 +169,7 @@
       "database"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/cockroachdb.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/cockroachdb.png",
     "image": "cockroachdb/cockroach:latest",
     "ports": [
       "26257/tcp",
@@ -188,7 +188,7 @@
       "database"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/cratedb.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/cratedb.png",
     "image": "crate:latest",
     "ports": [
       "4200/tcp",
@@ -206,7 +206,7 @@
       "database"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/elasticsearch.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/elasticsearch.png",
     "image": "elasticsearch:latest",
     "ports": [
       "9200/tcp",
@@ -226,7 +226,7 @@
       "project-management"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/gitlab_ce.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/gitlab_ce.png",
     "image": "gitlab/gitlab-ce:latest",
     "ports": [
       "80/tcp",
@@ -253,7 +253,7 @@
       "storage"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/minio.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/minio.png",
     "image": "minio/minio:latest",
     "ports": [
       "9000/tcp"
@@ -282,7 +282,7 @@
       "storage"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/scality-s3.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/scality-s3.png",
     "image": "scality/s3server",
     "ports": [
       "8000/tcp"
@@ -311,7 +311,7 @@
     ],
     "platform": "linux",
     "note": "Password needs to include at least 8 characters including uppercase, lowercase letters, base-10 digits and/or non-alphanumeric symbols.",
-    "logo": "https://portainer.io/images/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
     "image": "microsoft/mssql-server-linux:2017-GA",
     "ports": [
       "1433/tcp"
@@ -336,7 +336,7 @@
     ],
     "platform": "windows",
     "note": "Password needs to include at least 8 characters including uppercase, lowercase letters, base-10 digits and/or non-alphanumeric symbols.",
-    "logo": "https://portainer.io/images/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
     "image": "microsoft/mssql-server-windows-developer:latest",
     "ports": [
       "1433/tcp"
@@ -364,7 +364,7 @@
     ],
     "platform": "windows",
     "note": "Password needs to include at least 8 characters including uppercase, lowercase letters, base-10 digits and/or non-alphanumeric symbols.",
-    "logo": "https://portainer.io/images/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
     "image": "microsoft/mssql-server-windows-express:latest",
     "ports": [
       "1433/tcp"
@@ -391,7 +391,7 @@
       "serverless"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/ironfunctions.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ironfunctions.png",
     "image": "iron/functions:latest",
     "ports": [
       "8080/tcp"
@@ -409,7 +409,7 @@
       "serverless"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/ironfunctions.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ironfunctions.png",
     "image": "iron/functions-ui:latest",
     "ports": [
       "4000/tcp"
@@ -433,7 +433,7 @@
       "search-engine"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/solr.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/solr.png",
     "image": "solr:latest",
     "ports": [
       "8983/tcp"
@@ -450,7 +450,7 @@
       "database"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/redis.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/redis.png",
     "image": "redis:latest",
     "ports": [
       "6379/tcp"
@@ -467,7 +467,7 @@
       "messaging"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/rabbitmq.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/rabbitmq.png",
     "image": "rabbitmq:latest",
     "ports": [
       "5671/tcp",
@@ -486,7 +486,7 @@
     ],
     "note": "Access the blog management interface under <code>/ghost/</code>.",
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/ghost.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png",
     "image": "ghost:latest",
     "ports": [
       "2368/tcp"
@@ -504,7 +504,7 @@
     ],
     "platform": "linux",
     "note": "Default credentials: admin / changeme",
-    "logo": "https://portainer.io/images/logos/plesk.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/plesk.png",
     "image": "plesk/plesk:preview",
     "ports": [
       "21/tcp",
@@ -523,7 +523,7 @@
       "CMS"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/wordpress.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
     "image": "wordpress:latest",
     "env": [
       {
@@ -551,7 +551,7 @@
       "CMS"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/joomla.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/joomla.png",
     "image": "joomla:latest",
     "env": [
       {
@@ -579,7 +579,7 @@
       "CMS"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/drupal.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/drupal.png",
     "image": "drupal:latest",
     "ports": [
       "80/tcp"
@@ -596,7 +596,7 @@
       "CMS"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/plone.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/plone.png",
     "image": "plone:latest",
     "ports": [
       "8080/tcp"
@@ -613,7 +613,7 @@
       "CMS"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/magento.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/magento.png",
     "image": "alankent/gsd:latest",
     "ports": [
       "80/tcp",
@@ -633,7 +633,7 @@
       "Monitoring"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/sematext_agent.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/sematext_agent.png",
     "image": "sematext/sematext-agent-docker:latest",
     "name": "sematext-agent",
     "privileged": true,
@@ -662,7 +662,7 @@
       "marketing"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/mautic.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mautic.png",
     "image": "mautic/mautic:latest",
     "env": [
       {
@@ -690,7 +690,7 @@
       "streaming"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/wowza.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wowza.png",
     "image": "sameersbn/wowza:4.1.2-8",
     "env": [
       {
@@ -721,7 +721,7 @@
       "continuous-integration"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/jenkins.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/jenkins.png",
     "image": "jenkins/jenkins:lts",
     "ports": [
       "8080/tcp",
@@ -745,7 +745,7 @@
       "project-management"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/redmine.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/redmine.png",
     "image": "redmine:latest",
     "ports": [
       "3000/tcp"
@@ -762,7 +762,7 @@
       "project-management"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/odoo.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/odoo.png",
     "image": "odoo:latest",
     "env": [
       {
@@ -796,7 +796,7 @@
     ],
     "platform": "linux",
     "note": "This application web interface is exposed on the port 55414 inside the container.",
-    "logo": "https://portainer.io/images/logos/urbackup.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/urbackup.png",
     "image": "cfstras/urbackup",
     "ports": [
       "55413/tcp",
@@ -818,7 +818,7 @@
       "storage"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/filebrowser.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/filebrowser.png",
     "image": "hacdias/filemanager:latest",
     "ports": [
       "80/tcp"
@@ -837,7 +837,7 @@
       "development"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/ortussolutions-commandbox.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ortussolutions-commandbox.png",
     "image": "ortussolutions/commandbox:latest",
     "env": [
       {
@@ -858,7 +858,7 @@
       "CMS"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/ortussolutions-contentbox.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ortussolutions-contentbox.png",
     "image": "ortussolutions/contentbox:latest",
     "env": [
       {
@@ -892,7 +892,7 @@
       "portainer"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/portainer.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/portainer.png",
     "repository": {
       "url": "https://github.com/portainer/templates",
       "stackfile": "stacks/portainer-agent/docker-stack.yml"
@@ -908,7 +908,7 @@
       "serverless"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/openfaas.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/openfaas.png",
     "repository": {
       "url": "https://github.com/openfaas/faas",
       "stackfile": "docker-compose.yml"
@@ -923,7 +923,7 @@
       "serverless"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/ironfunctions.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ironfunctions.png",
     "repository": {
       "url": "https://github.com/portainer/templates",
       "stackfile": "stacks/ironfunctions/docker-stack.yml"
@@ -938,7 +938,7 @@
       "database"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/cockroachdb.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/cockroachdb.png",
     "repository": {
       "url": "https://github.com/portainer/templates",
       "stackfile": "stacks/cockroachdb/docker-stack.yml"
@@ -953,7 +953,7 @@
       "CMS"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/wordpress.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
     "repository": {
       "url": "https://github.com/portainer/templates",
       "stackfile": "stacks/wordpress/docker-stack.yml"
@@ -974,7 +974,7 @@
       "OPS"
     ],
     "platform": "linux",
-    "logo": "https://portainer.io/images/logos/microsoft.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
     "repository": {
       "url": "https://github.com/portainer/templates",
       "stackfile": "stacks/microsoft-oms/docker-stack.yml"
@@ -1000,7 +1000,7 @@
       "Monitoring"
     ],
     "description": "Collect logs, metrics and docker events",
-    "logo": "https://portainer.io/images/logos/sematext_agent.png",
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/sematext_agent.png",
     "platform": "linux",
     "repository": {
       "url": "https://github.com/portainer/templates",
