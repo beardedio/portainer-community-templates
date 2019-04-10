@@ -2535,11 +2535,6 @@
     ],
     "env": [
       {
-        "name": "INTERFACE",
-        "label": "INTERFACE",
-        "set": "eth0"
-      },
-      {
         "name": "PGID",
         "label": "PGID",
         "set": ""
