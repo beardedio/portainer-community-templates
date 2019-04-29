@@ -2680,7 +2680,8 @@
     "image": "linuxserver/minetest:latest",
     "category": [
       "Network:Other",
-      "Other:"
+      "Other:",
+      "GameServers:"
     ],
     "ports": [
       "30000/udp"
