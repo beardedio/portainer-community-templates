@@ -1805,43 +1805,6 @@
   },
   {
     "type": "container",
-    "title": "plexrequests",
-    "description": "Simple automated way for users to request new content for Plex.",
-    "logo": "https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/plexrequests-icon.png",
-    "image": "linuxserver/plexrequests:latest",
-    "category": [
-      "Downloaders:",
-      "Network:Other",
-      "MediaApp:Video",
-      "Tools:"
-    ],
-    "ports": [
-      "3000/tcp",
-      "/"
-    ],
-    "volumes": [
-      "/config"
-    ],
-    "env": [
-      {
-        "name": "PUID",
-        "label": "PUID",
-        "set": ""
-      },
-      {
-        "name": "PGID",
-        "label": "PGID",
-        "set": ""
-      },
-      {
-        "name": "URL_BASE",
-        "label": "URL_BASE",
-        "set": ""
-      }
-    ]
-  },
-  {
-    "type": "container",
     "title": "mariadb",
     "description": "An Enhanced drop in replacement for Mysql",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-icon.png",
@@ -2677,7 +2640,7 @@
     "title": "minetest",
     "description": "Server version of minetest, a free, open source alternative to minecraft.",
     "logo": "https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-icon.png",
-    "image": "linuxserver/minetest:latest",
+    "image": "linuxserver/minetest:latest:latest",
     "category": [
       "Network:Other",
       "Other:",
@@ -2690,6 +2653,11 @@
       "/config/.minetest"
     ],
     "env": [
+      {
+        "name": "CLI_ARGS",
+        "label": "CLI_ARGS",
+        "set": ""
+      },
       {
         "name": "PUID",
         "label": "PUID",
