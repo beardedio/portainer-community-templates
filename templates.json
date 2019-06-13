@@ -2209,7 +2209,7 @@
   {
     "type": "container",
     "title": "plex",
-    "description": null,
+    "description": "Plex organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices.[br][br][b][u][span style='color: #E80000;']Nvidia GPU Use[/span][/u][/b][br]Using the Unraid Nvidia Plugin to install a version of Unraid with the Nvidia Drivers installed and[br] add [b]--runtime=nvidia[/b] to [b]\"extra parameters\"[/b] (switch on advanced view) and[br]copy your [b]GPU UUID[/b] to [b]NVIDIA_VISIBLE_DEVICES.[/b][br][br][b][u][span style='color: #E80000;']Intel GPU Use[/span][/u][/b][br]Edit your [b]go[/b] file to include:[br][b]modprobe i915[br][/b], save and reboot, then [br]add [b]--device=/dev/dri[/b] to [b]\"extra parameters\"[/b] (switch on advanced view)",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-icon.png",
     "image": "linuxserver/plex:latest",
     "category": [
@@ -2217,10 +2217,35 @@
       "MediaServer:Music",
       "MediaServer:Photos"
     ],
+    "ports": [
+      "32400/tcp",
+      "3005/tcp",
+      "8324/tcp",
+      "32469/tcp",
+      "1900/udp",
+      "32410/udp",
+      "32412/udp",
+      "32413/udp",
+      "32414/udp"
+    ],
     "volumes": [
+      "/movies",
+      "/tv",
+      "/music",
+      "/transcode",
       "/config"
     ],
     "env": [
+      {
+        "name": "VERSION",
+        "label": "VERSION",
+        "set": "docker"
+      },
+      {
+        "name": "NVIDIA_VISIBLE_DEVICES",
+        "label": "NVIDIA_VISIBLE_DEVICES",
+        "set": "docker"
+      },
       {
         "name": "PUID",
         "label": "PUID",
@@ -2230,11 +2255,6 @@
         "name": "PGID",
         "label": "PGID",
         "set": ""
-      },
-      {
-        "name": "VERSION",
-        "label": "VERSION",
-        "set": "latest"
       }
     ]
   },
