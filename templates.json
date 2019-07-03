@@ -2178,7 +2178,7 @@
   {
     "type": "container",
     "title": "calibre-web",
-    "description": "Calibre Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.\n\n  [br][br]\n  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]\n  [b]/config[/b] Where Calibre-web should store it's database[br]\n  [b]/books[/b] Path to your calibre library metadata.db file[br]",
+    "description": "Calibre Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.\r\n\r\n  [br][br]\r\n  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]\r\n  [b]/config[/b] Where Calibre-web should store it's database[br]\r\n  [b]/books[/b] Path to your calibre library metadata.db file[br]",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png",
     "image": "linuxserver/calibre-web:latest",
     "category": [
@@ -2194,6 +2194,11 @@
       "/config"
     ],
     "env": [
+      {
+        "name": "DOCKER_MODS",
+        "label": "DOCKER_MODS",
+        "set": "linuxserver/calibre-web:calibre"
+      },
       {
         "name": "PUID",
         "label": "PUID",
